@@ -4,14 +4,14 @@ import os
 @dataclass
 class LLMConfig:
     model_name: str = "gemini-2.5-flash"
-    api_key: str = "AIzaSyB81pOOJBeCkdaD4dkPHVmbz8ycVhUdSA4"
+    api_key: str = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
     temperature: float = 0.2
     max_tokens: int = 512
 
 @dataclass
 class QdrantConfig:
     url: str = "https://49c82fba-ae7f-41df-b52c-5c6413219330.us-west-1-0.aws.cloud.qdrant.io"
-    api_key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.UBhFW8Du4eTVPUtWxqryuC047D4MYKSBfhGZKG62OTE"
+    api_key: str = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
     
     collection_name: str = "goodreads_youngadult_reviews_gemini" 
     reflection_collection: str = "user_insights_sidecar"           
